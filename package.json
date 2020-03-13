@@ -1,0 +1,26 @@
+{
+  "name": "knode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "deasync": "^0.1.19",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-edge": "^2.0.1",
+    "mongodb": "^3.5.2"
+  },
+  "devDependencies": {},
+  "autoload": {
+    "Core": "./core",
+    "App": "./app"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "run-p server start"
+  },
+  "author": "Kashif",
+  "license": "MIT"
+}
