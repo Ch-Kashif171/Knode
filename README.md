@@ -9,6 +9,6 @@ Node MVC framework. A very basic mvc pattern framework (inspired by Laravel) wit
   
     npm install
     
-   Then run below command to start framework.
+   Then run below command to start application.
    
     npm start
